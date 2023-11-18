@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Designed as a comprehensive starter project, its objective is to streamline the process of starting new projects by providing a solid foundation. Leveraging the efficiency of pnpm as the default package manager, it remains adaptable to various preferred package managers for seamless integration.
 
+[`Working Demo`](https://nextjs-starter-basic.vercel.app/)
+
 Furthermore, this project comes equipped with a thoughtfully curated selection of additional libraries and configurations to enhance development efficiency and ensure a robust starting point for projects of any scale and complexity. Added libraries & configurations are as follows-
 
 - [`EditorConfig`](https://editorconfig.org/) to maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs.
