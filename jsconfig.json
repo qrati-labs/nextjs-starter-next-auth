@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": "."
+    },
+    "include": [
+        "src",
+        "public/firebase-messaging-sw.js"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}

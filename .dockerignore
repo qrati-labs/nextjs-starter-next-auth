@@ -1,0 +1,29 @@
+# Ignore Node.js modules
+node_modules
+
+# Ignore build artifacts
+build
+
+# Ignore local development environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore log files
+npm-debug.log
+yarn-error.log
+
+# Ignore editor-specific files
+.vscode
+.idea
+
+# Ignore test coverage reports
+coverage
+
+# Ignore build scripts
+*.log
+*.tsbuildinfo
+
+# Ignore Docker specific files
+docker-compose*
