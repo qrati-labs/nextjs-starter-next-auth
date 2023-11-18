@@ -25,6 +25,7 @@
     "importOrder": [
         "^react$",
         "^next/(.*)$",
+        "^next-auth/(.*)$",
         "<THIRD_PARTY_MODULES>"
     ],
     "importOrderSeparation": true,
