@@ -1,8 +1,9 @@
 import Image from 'next/image';
 
+import AuthPanel from 'src/components/AuthPanel';
 import ThemeSwitcher from 'src/components/ThemeSwitcher';
 
-const Home = () => {
+const Home = async () => {
     return (
         <main className='flex min-h-screen flex-col items-center justify-between pb-0 pt-24 lg:pb-24'>
             <div className='z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex'>
@@ -46,6 +47,10 @@ const Home = () => {
 
             <div className='my-4 lg:my-0'>
                 <ThemeSwitcher />
+            </div>
+
+            <div className='my-4 lg:my-0'>
+                <AuthPanel />
             </div>
 
             <div className='mb-32 grid grid-cols-2 text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left'>
