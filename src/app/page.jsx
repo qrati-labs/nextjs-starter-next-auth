@@ -40,7 +40,7 @@ const Home = async () => {
                     priority
                 />
             </div>
-            <div className='my-4 max-w-lg text-center lg:my-0'>
+            <div className='my-4 max-w-xl text-center lg:my-0'>
                 PNPM • EditorConfig • VSCode Configs & Extensions • ESLint • Prettier • Sort Imports • Tailwind CSS •
                 Next Themes • Bundle Analyzer • Dockerfile
             </div>
