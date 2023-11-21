@@ -1,7 +1,7 @@
 // https://www.npmjs.com/package/@next/bundle-analyzer
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
     enabled: process.env.BUNDLE_ANALYZER_ENABLED === 'true',
-    openAnalyzer: false
+    openAnalyzer: true
 });
 
 /** @type {import('next').NextConfig} */
